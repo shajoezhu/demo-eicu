@@ -23,7 +23,6 @@ DBPORT :=
 
 # when connecting, we use a single variable: DBSTRING
 # **do not modify this**
-# the create_mimic_user.sh script uses the above variables to create the DB/users
 # so it's important to keep this DBSTRING consistent
 DBSTRING := dbname=$(DBNAME) user=$(DBUSER)
 ifneq ($(DBHOST),)
