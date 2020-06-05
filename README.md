@@ -5,10 +5,12 @@ This repo is a git-sparse-checkout from https://github.com/MIT-LCP/eicu-code
 ## Repo文件结构 (Repo structure)
 
 ```
-  /   # Root
-  |-- data     # eicu-demo data
-  |-- postgres # scripts for SQL database
-  |-- docker   # Dockerfile etc
+.               # Root
+├── data        # eicu-demo data
+├── docker      # Dockerfile etc
+├── LICENSE
+├── postgres    # scripts for SQL database
+└── README.md
 ```
 
 ## SQL数据库构建 (Build the database with postgres)
